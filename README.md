@@ -27,5 +27,5 @@ To avoid falling into 'traps', an additional search was needed, as we were not l
 
 The move that could fall into a trap would be taken out of the moves to select randomly from.
 
-Once again traps were selected irrelevant to the player ('X' or 'O'). This was to allow preventing your move giving the opportunity to bloc a winning "line_of_4": [athanaseno_traps.py will not fall for this trap set up by human player 'X'](http://botany18.pyconuk.org/play/human/164/?moves=3233225655663252263663505000001111).
+Once again traps were selected irrelevant to the player ('X' or 'O'). This was to allow preventing your move giving the opportunity to bloc a winning "line_of_4": [athanase_no_traps.py will not fall for this trap set up by human player 'X'](http://botany18.pyconuk.org/play/human/164/?moves=3233225655663252263663505000001111).
 
