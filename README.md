@@ -1,9 +1,9 @@
 # Botany18 PyCon UK competition
-Those are the bots I created for the Botany18 PyCon tournament.
+Those are the bots I created for the Botany18 PyCon tournament organized by [@inglesp](https://twitter.com/inglesp?lang=en)
 
 The comments have been added later for clarity. Results for the bots are available [here](http://botany18.pyconuk.org)
 
-For credits and more information of the tournament, see on the [GitHub for Botany](https://github.com/inglesp/botany)
+For more information of the tournament, see on the [GitHub for Botany](https://github.com/inglesp/botany)
 
 For the names of the Bots, they come from French comic [Le Génie des Alpages](https://fr.wikipedia.org/wiki/Le_Génie_des_alpages) [in english](https://en.wikipedia.org/wiki/Le_Génie_des_alpages) :
 - [Athanase](https://fr.wikipedia.org/wiki/Personnages_du_Génie_des_alpages#Athanase_Percevalve): he is the shepherd, rather placid and always wear a beret. He has among others an infinite collection of pullovers and sweaters all more delirious than each other. (directly translated from Wikipedia in French).
