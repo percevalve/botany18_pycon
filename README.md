@@ -7,13 +7,13 @@ For more information of the tournament, see on the [GitHub for Botany](https://g
 
 For the names of the Bots, they come from French comic [Le Génie des Alpages](https://fr.wikipedia.org/wiki/Le_Génie_des_alpages) or [in english](https://en.wikipedia.org/wiki/Le_Génie_des_alpages) :
 - [Athanase](https://fr.wikipedia.org/wiki/Personnages_du_Génie_des_alpages#Athanase_Percevalve): he is the shepherd, rather placid and always wear a beret. He has among others things an infinite collection of sweaters all more delirious than each other. (directly translated from Wikipedia in French).
-- [Romuald](https://fr.wikipedia.org/wiki/Personnages_du_Génie_des_alpages#Romuald): he is a black ram. He claims to be the leader of the flock, but this flock is not one to be lead. (very approximate summary from Wikipedia)
+- [Romuald](https://fr.wikipedia.org/wiki/Personnages_du_Génie_des_alpages#Romuald): he is a black ram. He claims to be the leader of the flock, but this flock is not one to be lead. Romuald often fails at everything he undertakes, or even remains misunderstood (very approximate summary from Wikipedia)
 
-Both Athanase and Romuald are 'Goldfish' or stateless, meaning everythin is recalculated at each round.
+Both Athanase and Romuald are 'Goldfish' or stateless bots, meaning everything is recalculated at each round.
 
-To see Athanase or Romuald play, just follow the link or install [Botany](https://github.com/inglesp/botany).
+To see Athanase or Romuald play, just follow the links below or install [Botany](https://github.com/inglesp/botany).
 
-Athanase and Athanase 'No Traps' have better output is you play using local verion of Botany, just set DEBUG (output should not appear in tournament version):
+Athanase and Athanase 'No Traps' have better output if you play using local verion of Botany, just set DEBUG (output should not appear in tournament version):
 ```Bash
 DEBUG=1 botany play athanase.py athanase_no_traps.py
 ```
@@ -59,7 +59,7 @@ Romuald is an improved version of Athanase. [Version that finished 2nd at the Bo
 
 Goal of Romuald was to set "consecutive" traps, meaning setting winning moves above each other and garanty victory. 
 
-Implementation done in the final hours of the competition turned out to be trickier than planned... And relatively simple Athanase 'No Traps Priority' was still able to beat Romuald most of the time.
+Implementation being done in the final hours of the competition turned out to be trickier than planned... And relatively simple Athanase 'No Traps Priority' was still able to beat Romuald most of the time.
 
 Final implementation tried to check for "consecutive" traps, and in those cases trigger them to get faster to victory, but apparently with little success.
 
