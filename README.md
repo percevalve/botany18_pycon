@@ -11,6 +11,13 @@ For the names of the Bots, they come from French comic [Le Génie des Alpages](h
 
 Both Athanase and Romuald are 'Goldfish' or stateless, meaning everythin is recalculated at each round.
 
+To see Athanase or Romuald play, just follow the link or install [Botany](https://github.com/inglesp/botany).
+
+Athanase and Athanase 'No Traps' have better output is you play using local verion of Botany, just set DEBUG (output should not appear in tournament version):
+```Bash
+DEBUG=1 botany play athanase.py athanase_no_traps.py
+```
+
 ## Athanase serie
 
 This is the logic that was successfull at the beginning of the tournament and relatively simple. Code was (will be) edited to add comments and select better variable names.
@@ -54,5 +61,5 @@ Goal of Romuald was to set "consecutive" traps, meaning setting winning moves ab
 
 Implementation done in the final hours of the competition turned out to be trickier than planned... And relatively simple Athanase 'No Traps Priority' was still able to beat Romuald most of the time.
 
-Final implementation tried to check for "consecutive" traps, and in those cases trigger then to get faster to victory, but apparently with little success.
+Final implementation tried to check for "consecutive" traps, and in those cases trigger them to get faster to victory, but apparently with little success.
 
