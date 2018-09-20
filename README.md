@@ -18,7 +18,7 @@ The results were ordered using the number move needed to complete the "line of 4
 
 Top result will be selected and a position from then was selected.
 
-It was a pure "Gold fish" strategy, not looking ahead, so could fall into obvious traps like allowing the opponent to access a "line of 4" that only need 1 to be completed: [athanase will fall for this trap set up by human player 'X'](http://botany18.pyconuk.org/play/human/133/?moves=3233225655).
+It was a pure "Gold fish" strategy, not looking ahead, so could fall into obvious traps like allowing the opponent to access a "line of 4" that only need 1 to be completed: [athanase will fall for this trap set up by human player 'X'](http://botany18.pyconuk.org/play/human/133/?moves=3233225655663252263663505000001111).
 
 ### athanase_no_traps.py
 The page for Athanase is [available on the Botany18 server](http://botany18.pyconuk.org/bots/164/) and you can [start play against him](http://botany18.pyconuk.org/play/human/164/) or [play against him letting him start](http://botany18.pyconuk.org/play/164/human/).
@@ -27,5 +27,5 @@ To avoid falling into 'traps', an additional search was needed, as we were not l
 
 The move that could fall into a trap would be taken out of the moves to select randomly from.
 
-Once again traps were selected irrelevant to the player ('X' or 'O'). This was to allow preventing your move giving the opportunity to bloc a winning "line_of_4".
+Once again traps were selected irrelevant to the player ('X' or 'O'). This was to allow preventing your move giving the opportunity to bloc a winning "line_of_4": [athanaseno_traps.py will not fall for this trap set up by human player 'X'](http://botany18.pyconuk.org/play/human/164/?moves=3233225655663252263663505000001111).
 
