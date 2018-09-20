@@ -22,6 +22,7 @@ It was a pure "Gold fish" strategy, not looking ahead, so could fall into obviou
 
 ### athanase_no_traps.py
 The page for Athanase is [available on the Botany18 server](http://botany18.pyconuk.org/bots/164/) and you can [start play against him](http://botany18.pyconuk.org/play/human/164/) or [play against him letting him start](http://botany18.pyconuk.org/play/164/human/).
+
 To avoid falling into 'traps', an additional search was needed, as we were not looking at "line_of_4" accesible during this turn, but at the "lines of 4" that our move could give access to.
 
 The move that could fall into a trap would be taken out of the moves to select randomly from.
