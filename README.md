@@ -6,7 +6,7 @@ The comments have been added later for clarity. Results for the bots are availab
 For more information of the tournament, see on the [GitHub for Botany](https://github.com/inglesp/botany)
 
 For the names of the Bots, they come from French comic [Le Génie des Alpages](https://fr.wikipedia.org/wiki/Le_Génie_des_alpages) or [in english](https://en.wikipedia.org/wiki/Le_Génie_des_alpages) :
-- [Athanase](https://fr.wikipedia.org/wiki/Personnages_du_Génie_des_alpages#Athanase_Percevalve): he is the shepherd, rather placid and always wear a beret. He has among others an infinite collection of pullovers and sweaters all more delirious than each other. (directly translated from Wikipedia in French).
+- [Athanase](https://fr.wikipedia.org/wiki/Personnages_du_Génie_des_alpages#Athanase_Percevalve): he is the shepherd, rather placid and always wear a beret. He has among others things an infinite collection of sweaters all more delirious than each other. (directly translated from Wikipedia in French).
 - [Romuald](https://fr.wikipedia.org/wiki/Personnages_du_Génie_des_alpages#Romuald): he is a black ram that is practice is the main character from the comic. He claims to be the leader of the flock, but this flock is not one to be lead. (very approximate summary from Wikipedia)
 
 ## Athanase serie
