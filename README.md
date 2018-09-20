@@ -23,7 +23,7 @@ DEBUG=1 botany play athanase.py athanase_no_traps.py
 This is the logic that was successfull at the beginning of the tournament and relatively simple. Code was (will be) edited to add comments and select better variable names.
 
 ### Athanase (athanase.py)
-The page for Athanase is [available on the Botany18 server](http://botany18.pyconuk.org/bots/133/) and you can [start play against him](http://botany18.pyconuk.org/play/human/133/) or [play against him letting him start](http://botany18.pyconuk.org/play/133/human/).
+The page for Athanase is [available on the Botany18 server](http://botany18.pyconuk.org/bots/133/) and you can [start playing against him](http://botany18.pyconuk.org/play/human/133/) or [play against him letting him start](http://botany18.pyconuk.org/play/133/human/).
 
 Key idea was to select the play that would be part of the most "line of 4", irrelevant of the player that started complete the line of 4.
 
@@ -34,7 +34,7 @@ Top result will be selected and a position from then was selected.
 It was a pure "Gold fish" strategy, not looking ahead, so could fall into obvious traps like allowing the opponent to access a "line of 4" that only need 1 to be completed: [athanase will fall for this trap set up by human player 'X'](http://botany18.pyconuk.org/play/human/133/?moves=3233225655663252263663505000001111).
 
 ### athanase_no_traps.py
-The page for Athanase "No traps" is [available on the Botany18 server](http://botany18.pyconuk.org/bots/164/) and you can [start play against him](http://botany18.pyconuk.org/play/human/164/) or [play against him letting him start](http://botany18.pyconuk.org/play/164/human/).
+The page for Athanase "No traps" is [available on the Botany18 server](http://botany18.pyconuk.org/bots/164/) and you can [start playing against him](http://botany18.pyconuk.org/play/human/164/) or [play against him letting him start](http://botany18.pyconuk.org/play/164/human/).
 
 To avoid falling into 'traps', an additional search was needed, as we were not looking at "line_of_4" accesible during this turn, but at the "lines of 4" that our move could give access to.
 
@@ -45,7 +45,7 @@ This filtering is done twice, once on the move that have been selected, but if n
 Once again traps were selected irrelevant to the player ('X' or 'O'). This was to allow preventing your move giving the opportunity to bloc a winning "line_of_4": [athanase_no_traps.py will not fall for this trap set up by human player 'X'](http://botany18.pyconuk.org/play/human/164/?moves=3233225655663252263663505000001111).
 
 ### athanase_no_traps_priority.py
-The page for Athanase 'No traps Priority' is [available on the Botany18 server](http://botany18.pyconuk.org/bots/257/) and you can [start play against him](http://botany18.pyconuk.org/play/human/257/) or [play against him letting him start](http://botany18.pyconuk.org/play/257/human/).
+The page for Athanase 'No traps Priority' is [available on the Botany18 server](http://botany18.pyconuk.org/bots/257/) and you can [start playing against him](http://botany18.pyconuk.org/play/human/257/) or [play against him letting him start](http://botany18.pyconuk.org/play/257/human/).
 
 It turns out all traps are not made equal, at the end of the game you might have to chose to fall into an enemy trap (and lose) or fall into your own trap (and let your opponent prevent you from losing.... for now).
 
@@ -55,7 +55,7 @@ Link to practical example to come....
 
 ## Romuald
 
-Romuald is an improved version of Athanase. [Version that finished 2nd at the Botany tournament is here](http://botany18.pyconuk.org/bots/325/). You can [start play against him](http://botany18.pyconuk.org/play/human/325/) or [play against him letting him start](http://botany18.pyconuk.org/play/325/human/).
+Romuald is an improved version of Athanase. [Version that finished 2nd at the Botany tournament is here](http://botany18.pyconuk.org/bots/325/). You can [start play against him](http://botany18.pyconuk.org/play/human/325/) or [start playing against him letting him start](http://botany18.pyconuk.org/play/325/human/).
 
 Goal of Romuald was to set "consecutive" traps, meaning setting winning moves above each other and garanty victory. 
 
